@@ -1,0 +1,5 @@
+# Ignorar subprojetos com repositórios próprios
+rasmoo/
+spring-boot-file-upload/
+springTutorial/
+upload/
