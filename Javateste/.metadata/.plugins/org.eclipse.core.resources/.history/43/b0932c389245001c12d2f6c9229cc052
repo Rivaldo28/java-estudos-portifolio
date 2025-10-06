@@ -1,0 +1,5 @@
+package com.springbootsimple.hibernate.util;
+
+public class HibernateUtil {
+
+}

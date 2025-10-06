@@ -1,0 +1,40 @@
+ctrl + space         -  completar a digitação
+ctrl + shift + O     -  organizar os imports
+ctrl + shift + F     -  Formatação de texto //@Formatter:off  //Formatter:on
+ctrl + 1             -  Criar Método ou classe que não existe
+ctrl + 3             -  comando de busca digite ggas para gerar os métodos getters e setters
+ou pode ghcae gerar hashcode / gcuf para gerar um construtor
+ctrl + /             - para comentar codigo ou somente comentário
+Alt + seta p/cima    - subir código
+ctrl + Alt + p/c ou b- copiar para cima ou para baixo
+ctrl + D             - Deletar linha
+Refatorar
+ALt + Shift + R      - Refatorar Sistemas alterando nome variavies.
+Alt + Shift + M      - Gerar um método privado.
+
+ctrl + M             - maximar tela
+ctrl +               - Aumentar fonte
+ctrl -               - diminuir fonte
+ctrl + w             - fechar aba
+ctrl + shift + w     - fechar todas as abas
+ctrl + E             - trocar de aba
+ctrl + O             - acessar todas as classes
+ctrl + T             - para pegar hierarquia de uma classe
+ctrl + Shift + T     - faz uma pesquisa completa todas
+ctrl + shift + R     - pesquisa classes 
+ctrl + .             - ele avisa todos os erros para frente
+ctrl + ,             - ele avisa todos os erros para trás
+ctrl + N	     - Criar ou classe como exemplo
+Alt + Shift + X,B    - Para subir uma aplicação
+ctrl + Shift + L     - Mostra todos atlhos gravados no computador
+ 
+Digite main ctrl + space - cria um método publico
+  ""    sysout ctrl + space - System.out.println();
+  ""    if     ctrl + space - estrutura de condição
+  ""    ifelse ctrl + space - estrutura de condição
+  ""    try_catch ctrl + space - verificação
+    
+
+
+ 
+

@@ -1,0 +1,5 @@
+package com.crescendodigital.maven;
+
+public class OlaMundo {
+
+}

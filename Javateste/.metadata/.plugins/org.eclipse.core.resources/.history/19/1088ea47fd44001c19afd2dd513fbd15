@@ -1,0 +1,20 @@
+package com.rivaldosouza;
+
+import com.rivaldosouza.entidades.Entidade;
+import com.rivaldosouza.services.EntidadeService;
+import com.rivaldosouza.services.EntidadeServiceImpl;
+
+public class Main {
+
+	public static void main(String[] args) {
+		//code
+		EntidadeService service = 	new EntidadeServiceImpl();
+		//service.altaEntidade(new Entidade());
+		Entidade entidade	= new Entidade();
+		service.altaEntidade(entidade);
+		
+		String mensagem = "Olá, como está?";
+		System.out.println(mensagem);
+		System.out.println(mensagem);
+	}
+}

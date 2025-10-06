@@ -1,0 +1,70 @@
+git submodule update --init --recursive --remote
+npm run build mvcommons-ng
+npm run build controle-acesso-ng
+npm run build mvcadastrosbasicos-ng
+git merge --abort
+
+git submodule foreach --recursive git checkout hotfix/21.0.3
+git reset --soft head~1 -- voltar o commit
+git log ---fez o push o problemas em nuvem
+git restore .
+
+git reset --hard --voltar anterior
+
+ git pull origin release/2020.1.0
+ git stash
+ git pull origin release/2020.1.0
+ git stash apply
+ git checkout -b feature/SPREGH-3589
+ git commit -m "feat(2020.1.0) [SPREGH-3589] implementingnew report "
+ git push origin feature/SPREGH-3589
+ git checkout release/2020.1.0
+
+Bug
+git checkout -b bugfix/SPREGH-3560.2
+
+git commit -m "fix(2020.1.0) [SPREGH-3589.2] report correction "
+
+npx kill-port 4200
+git push origin feature/SPREGH-3589.2
+
+git checkout bugfix/SPREGH-3564.2
+
+git checkout -b feature/SPREGH-3564
+ng lint --format=stylish dispensacao-ng
+git checkout -b feature/SPDISP-2296
+git commit -m "feat(release/1.79.0): [SPDISP-2296] adding reservation column"
+git commit -m "fix(release/1.79.0): [SPDISP-2286] implementing the one order by data"
+git push origin feature/SPDISP-2296
+
+Foi ajustado a chamada do front-end, no admin-routing, no index do administrador.
+
+
+
+git checkout -b fix/SPBH-7933
+git commit -m "fix(release/23.0.0): [fix/SPBH-7933] Dispensing point login rule"
+git push origin fix/SPBH-7933
+
+
+
+git checkout -b feature/SPBH-5698
+git commit -m "feat(release/23.1.0): [SPBH-5698] Block user dispensing outside the municipality"
+git push origin feature/SPBH-5698
+
+
+
+comandos para fechar portas
+netstat -aon |find /i "listening"
+netstat -a -n -o | findstr 8080
+TASKKILL /f /pid 1234 
+
+
+08007741515
+
+
+git checkout -b SPDISP-2584
+git commit -m "feat(release/23.1.0): [SPDISP-2584] [DISP] - Physician's CNS error in LME"
+git push origin SPDISP-2584
+
+
+ http://git.mvfor.local/saude-publica/dispensacao/dispensacao-api/-/merge_requests/new?merge_request%5Bsource_branch%5D=SPBH-5698_script

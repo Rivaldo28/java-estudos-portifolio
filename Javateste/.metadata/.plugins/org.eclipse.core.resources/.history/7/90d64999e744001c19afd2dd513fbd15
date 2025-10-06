@@ -1,0 +1,23 @@
+package com.rivaldosouza.services;
+
+import com.rivaldosouza.entidades.Entidade;
+
+public class EntidadeServiceImpl implements EntidadeService {
+	
+	@Override
+	public void altaEntidade(Entidade entidade) {
+		System.out.println("Entidade dada alta ");
+	}
+	
+	public void searchEntidade() {
+		System.out.println("Entidade encontrado");
+	}
+	
+	public void updateEntidade() {
+		System.out.println("Entidade modificado");
+	}
+	
+	public void deleteEntidade() {
+		System.out.println("Entidade eliminado");
+	}
+}

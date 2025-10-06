@@ -1,0 +1,5 @@
+package com.springbootsimple.hibernate.testes;
+
+public class HibernateMain {
+
+}

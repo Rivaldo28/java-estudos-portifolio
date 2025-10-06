@@ -1,0 +1,37 @@
+package com.rivaldosouza;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		//write your code here
+		Auto clio = new Auto();
+		clio.setModelo("Renault");
+		clio.setMarca("Clio");
+		clio.setAno(2014);
+		clio.setKm(0);
+		clio.setDominio("PHN123");
+		
+		Auto megane = new Auto();
+		megane.setModelo("Megane");
+		megane.setMarca("Renault");
+		megane.setAno(2016);
+		megane.setKm(0);
+		megane.setDominio("PKJ653");
+		
+		Auto megane2 = new Auto();
+		megane2.setModelo("Megane");
+		megane2.setMarca("Renault");
+		megane2.setAno(2016);
+		megane2.setKm(0);
+		megane2.setDominio("PKJ653");
+		
+		System.out.println(clio.getMarca() + " - " + clio.getModelo());
+		System.out.println(megane.getMarca() + " - " + megane.getModelo());
+		
+		System.out.println(clio.equals(megane));	
+		System.out.println(megane.equals(megane));
+		System.out.println(megane + " - " + megane2);
+		
+	}
+	
+}
